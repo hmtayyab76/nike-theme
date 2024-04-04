@@ -1,31 +1,53 @@
 {
-    "sections": {
-      "banner": {
-        "type": "banner",
-        "settings": {}
-      },
-      "three-images": {
-        "type": "three-images",
-        "settings": {}
-      },
-      "more-info": {
-        "type": "more-info",
-        "settings": {}
-      },
-      "all-collections": {
-        "type": "all-collections",
-        "settings": {}
-      },
-      "all-products": {
-        "type": "all-products",
-        "settings": {}
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "settings": {
+        "background": "#F4F4F4",
+        "text_color": "#000000"
       }
     },
-    "order": [
-      "banner",
-      "three-images",
-      "more-info",
-      "all-collections",
-      "all-products"
-    ]
-  }
+    "three-images": {
+      "type": "three-images",
+      "settings": {
+      }
+    },
+    "more-info": {
+      "type": "more-info",
+      "settings": {
+        "background": "#F4F4F4",
+        "text_color": "#000000",
+        "text": "default text",
+        "text2": "default text"
+      }
+    },
+    "all-collections": {
+      "type": "all-collections",
+      "settings": {
+        "background": "#F4F4F4",
+        "text_color": "#000000"
+      }
+    },
+    "all-products": {
+      "type": "all-products",
+      "settings": {
+        "background": "#F4F4F4",
+        "text_color": "#000000"
+      }
+    },
+    "pagefly_section_FmDTGY": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "three-images",
+    "more-info",
+    "all-collections",
+    "all-products",
+    "pagefly_section_FmDTGY"
+  ]
+}
